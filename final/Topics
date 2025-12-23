@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>我的愛車介紹</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- 導覽列 -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">2022 Yamaha YZF-R3</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">首頁</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">車輛介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">規格</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- 頁面內容 -->
+<div class="container">
+    <div class="text-center mt-5">
+        <h1>YZF-R3</h1>
+        <p class="lead">人生中的第一台重型機車</p>
+        <img src="https://i.ibb.co/Fk9xPxyq/image.jpg">
+    </div>
+
+    <hr class="my-5">
+
+    <!-- 我的車介紹 -->
+    <section id="about" class="bg-light">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <h1 class="fw-bold">我的重機｜重點特色</h1>
+        <p>
+            Yamaha YZF-R3，簡稱R3，是一款由山葉自2015年起生產的321 cc直列雙缸運動型檔車。
+        </p>
+        <p class="text-secondary">以下是我日常使用與騎乘感受的重點整理。</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4 reveal">
+          <div class="card h-100 feature-card">
+            <img src="https://i.ibb.co/ch7kRpDm/image.jpg" class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">外型與操控</h2>
+              <p class="card-text">整流罩設計俐落，坐姿運動但不壓迫，市區與山路都易於掌握。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="card h-100 feature-card">
+            <img src="https://i.ibb.co/203Bbgfw/image.jpg" class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">日常使用與保養</h2>
+              <p class="card-text">低速平順、油耗與維護成本合理，通勤與休閒都很適合。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="card h-100 feature-card">
+            <img src="https://i.ibb.co/NgGzptFG/image.jpg" class="card-img-top" alt="阿婆灣騎乘的追焦照片">
+            <div class="card-body">
+              <h2 class="card-title">山路表現</h2>
+              <p class="card-text">底盤穩定、動力線性，過彎建立信心，是休閒跑山的好夥伴。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- 規格表 -->
+    <section id="specs">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <h1 class="fw-bold">基本規格</h1>
+      </div>
+
+      <div class="table-responsive reveal">
+        <table class="table table-striped align-middle">
+          <tbody>
+            <tr><th scope="row" class="w-25">年份 / 型號</th><td>2022 / YZF-R3</td></tr>
+            <tr><th scope="row">引擎型式</th><td>並列雙缸、DOHC、水冷</td></tr>
+            <tr><th scope="row">排氣量</th><td>約 321 cc</td></tr>
+            <tr><th scope="row">變速系統</th><td>6 速</td></tr>
+            <tr><th scope="row">前後煞車</th><td>碟煞（ABS）</td></tr>
+            <tr><th scope="row">座高 / 濕重</th><td>約 780 mm / 約 170 kg</td></tr>
+            <tr><th scope="row">油箱容量</th><td>約 14 L</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+</div>
+
+<!-- 頁尾 -->
+  <footer class="ft-4 mt-5">
+    <div class="container">
+      <div class="small">我的重機介紹</div>
+      <div class="small">
+        <a href="#about">重點特色</a>
+        <a href="#specs">基本規格</a> 
+      </div>
+    </div>
+  </footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
